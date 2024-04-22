@@ -5,5 +5,11 @@
 }
 
 .no-click-me {
-  background-color: #e9d43a;
+  background-color: #e2d576;
+}
+
+.click-me, 
+.no-click-me {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
 }
