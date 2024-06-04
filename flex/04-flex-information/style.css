@@ -15,19 +15,22 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
+  padding: 0 4rem;
 }
 
 .plants {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 4rem;
 }
 
 .plant {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  gap: 1rem;
 
   & div {
     text-indent: 1rem;
