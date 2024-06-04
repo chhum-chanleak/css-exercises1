@@ -18,6 +18,22 @@ body {
   gap: 1rem;
 }
 
+.plants {
+  display: flex;
+  gap: 4rem;
+}
+
+.plant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & div {
+    text-indent: 1rem;
+  }
+}
+
 img {
   width: 100px;
   height: 100px;
