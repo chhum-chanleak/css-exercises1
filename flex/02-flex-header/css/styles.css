@@ -3,3 +3,34 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.header {
+  padding: 0.5rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e1e2c4;
+
+  & ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;    
+
+    & li {
+      background-color: #fff;
+      padding: 4px;
+    }
+
+    & a {
+      text-decoration: none;
+      color: #00f;
+    }
+  }
+
+  & .logo {
+    background-color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    color: #f07431;
+  }
+}
